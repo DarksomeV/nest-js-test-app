@@ -52,5 +52,3 @@ export class TopPageService {
     return this._topPageModel.find({ $text: { $search: text, $caseSensitive: false } }).exec();
   }
 }
-
-//ebal v rot avtora kursa
